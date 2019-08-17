@@ -1,10 +1,21 @@
 {
+  "name": "electron-builder-package-mac-demo",
+  "description": "electron-builder-package-mac-demo",
+  "version": "1.0.0",
+  "author": "freewind",
   "main": "src/main.js",
+  "index": "src/main.js",
   "scripts": {
-    "demo": "electron ."
+    "demo": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "electron-builder-package-mac-demo"
   },
   "dependencies": {},
   "devDependencies": {
-    "electron": "6.0.1"
+    "electron": "6.0.2",
+    "electron-builder": "21.2.0",
+    "webpack": "4.8.3"
   }
 }

@@ -1,9 +1,7 @@
-Electron Hello World Demo
-=========================
+Electron Builder Package Mac Demo
+=================================
 
 ```
 npm install
-npm start
+npm dist
 ```
-
-![demo](./images/demo.jpg)
