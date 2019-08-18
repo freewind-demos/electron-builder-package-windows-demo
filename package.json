@@ -1,16 +1,16 @@
 {
-  "name": "electron-builder-package-mac-demo",
-  "description": "electron-builder-package-mac-demo",
+  "name": "electron-builder-package-windows-demo",
+  "description": "electron-builder-package-windows-demo",
   "version": "1.0.0",
   "author": "freewind",
   "main": "src/main.js",
   "index": "src/main.js",
   "scripts": {
     "demo": "electron .",
-    "dist": "electron-builder"
+    "dist": "electron-builder --win"
   },
   "build": {
-    "appId": "electron-builder-package-mac-demo"
+    "appId": "electron-builder-package-windows-demo"
   },
   "dependencies": {},
   "devDependencies": {

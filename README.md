@@ -1,5 +1,5 @@
-Electron Builder Package Mac Demo
-=================================
+Electron Builder Package Windows Demo
+=====================================
 
 ```
 npm install
