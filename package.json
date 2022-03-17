@@ -6,7 +6,7 @@
   "main": "src/main.js",
   "index": "src/main.js",
   "scripts": {
-    "demo": "electron .",
+    "start": "electron .",
     "dist": "electron-builder --win"
   },
   "build": {
